@@ -12,6 +12,7 @@ The goal of this deliverable was to split dataset into columns (backer_id, cf_id
 
 ### Deliverable 2
 The goal of this deliverable was to split "name" column into "first_name" and "last_name" and then drop the "name" column
+
 ![image](https://user-images.githubusercontent.com/110848660/199626084-a0ede443-82d7-453d-87bc-ae2bad7ddfba.png)
 
 ### Deliverable 3
