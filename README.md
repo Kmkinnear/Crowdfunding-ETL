@@ -22,6 +22,27 @@ The goal of this deliverable was to first update the schema and relationship dia
 ### Deliverable 4
 There were 4 different goals in Deliverable 4 as a bonus that involved running separate queries.
 - Query 1 asked us to retrieve the number of backer counts (listed in descending order) for each "cf_id" for all "live" campaigns
+
 ![image](https://user-images.githubusercontent.com/110848660/199626923-638f7dbf-a503-4358-a7e3-8ad3e1c8da0e.png)
 
 ![image](https://user-images.githubusercontent.com/110848660/199626953-50866898-2369-4f4d-a5aa-05d05bbcbd0d.png)
+
+- Query 2 asked us to run the same data but to also use the "backers" table. This allowed us to use an "INNER JOIN" to achieve the same result as the previous query
+
+![image](https://user-images.githubusercontent.com/110848660/199627308-b254a1dd-4ffc-4838-bb1d-b856f0dc9bd6.png)
+
+![image](https://user-images.githubusercontent.com/110848660/199627260-c05d4fd9-2638-4aad-b89b-5a3e0a97243d.png)
+
+- Query 3 asked us to create a new table using the contact table that would list the first_name, last_name, email, and remaining goal amount (in descending order). This was tricky because we had to add in a function to our code to calculate the remaining goal amount by subtracting the pledged amount columns from our goal amount columns and create a new column with the remaining amount
+
+![image](https://user-images.githubusercontent.com/110848660/199627428-7b0ce52a-04da-4f13-9ed1-083371f92aa3.png)
+
+![image](https://user-images.githubusercontent.com/110848660/199627569-ae9949c0-01c7-4e40-8a39-faa7c44a7cad.png)
+
+- Query 4 asked us to create a new table using the backers table that listed the email, first_name, last_name, cf_id, company_name, description, end_date, and left of goal amount
+
+![image](https://user-images.githubusercontent.com/110848660/199627943-82644e5d-ca72-4250-b50e-36c107ee170c.png)
+
+![image](https://user-images.githubusercontent.com/110848660/199627962-2ca8783a-1fc2-48d5-bbaf-187e97654682.png)
+
+
